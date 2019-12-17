@@ -1,6 +1,7 @@
 import { Injectable } from '@angular/core';
 import Auth0Lock from "auth0-lock";
-import { tokenNotExpired } from "angular2-jwt";
+// import { tokenNotExpired } from "angular2-jwt";
+import { tokenNotExpired } from "@auth0/angular-jwt";
 
 
 //AUTH0 Credentials
